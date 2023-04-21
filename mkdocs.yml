@@ -3,6 +3,9 @@ site_name: Calculator Documentation
 theme:
   name: "material"
 
+plugins:
+  - mkdocstrings
+
 nav:
   - Calculation Docs: index.md
   - tutorials.md
