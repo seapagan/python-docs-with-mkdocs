@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-docs-with-mkdocs"
+version = "0.1.0"
+description = "Real Python course on Mkdocs"
+authors = ["Grant Ramsay <seapagan@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "python_docs_with_mkdocs"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.4.2"
+mkdocstrings = {extras = ["python"], version = "^0.21.2"}
+mkdocs-material = "^9.1.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
