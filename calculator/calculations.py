@@ -91,11 +91,11 @@ def divide(a: Union[float, int], b: Union[float, int]) -> float:
         ZeroDivisionError: division by zero
 
     Args:
-        a (float): A number representing the dividend in the division.
-        b (float): A number representing the divisor in the division.
+        a : A number representing the dividend in the division.
+        b : A number representing the divisor in the division.
 
     Returns:
-        float: A number representing the quotient of `a` and `b`.
+        A number representing the quotient of `a` and `b`.
 
     Raises:
         ZeroDivisionError: An error occurs when the divisor is `0`.
