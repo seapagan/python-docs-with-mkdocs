@@ -5,6 +5,10 @@ theme:
 
 plugins:
   - mkdocstrings
+  - search
+
+repo_url: https://github.com/seapagan/python-docs-with-mkdocs
+repo_name: seapagan/python-docs-with-mkdocs
 
 nav:
   - Calculation Docs: index.md
